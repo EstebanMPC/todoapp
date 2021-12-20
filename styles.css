@@ -46,13 +46,13 @@ body {
   margin-bottom: 30px;
 }
 
-.forminput {
+#myText {
   padding: 10px 60px;
   border: none;
   border-radius: 15px;
 }
 
-.submitBtn {
+#myButton {
   background-color: #d03161;
   color: white;
   padding: 10px 40px;
