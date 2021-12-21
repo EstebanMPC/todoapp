@@ -9,12 +9,17 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #178a94;
+  background-color: #30a8a8;
   color: white;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .title {
   font-family: "Righteous", cursive;
+  font-size: 40px;
   padding: 15px 30px;
 }
 
@@ -24,40 +29,57 @@ body {
   align-items: center;
   border: 15px;
   border-radius: 15px;
-  background-color: #2b374b;
+  background-color: #181860;
   width: 500px;
   min-height: 300px;
   position: relative;
+  padding: 30px 35px;
 }
 
-.tasks {
+.todo-items {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  margin-left: 60px;
 }
 
-.form {
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  border-bottom: 1px solid #f0a848;
+  padding: 20px 0px;
+}
+
+.todo-form {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 30px;
+  margin: 40px 0px 0px 0px;
 }
 
-#myText {
+.todo-input {
   padding: 10px 60px;
   border: none;
   border-radius: 15px;
 }
 
-#myButton {
-  background-color: #d03161;
+.add-button {
+  background-color: #d81860;
   color: white;
   padding: 10px 40px;
   border: none;
   border-radius: 15px;
   font-weight: 700;
   margin-left: 20px;
+}
+
+.delete-button {
+  background-color: #181860;
+  padding: 2px 7px;
+  border: none;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-left: 20px;
+  color: white;
 }
